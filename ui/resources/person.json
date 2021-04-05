@@ -1,0 +1,110 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "mr",
+    "first": "romain",
+    "last": "hoogmoed"
+  },
+  "location": {
+    "street": "1861 jan pieterszoon coenstraat",
+    "city": "maasdriel",
+    "state": "zeeland",
+    "postcode": 69217
+  },
+  "email": "romain.hoogmoed@example.com",
+  "login": {
+    "username": "lazyduck408",
+    "password": "jokers",
+    "salt": "UGtRFz4N",
+    "md5": "6d83a8c084731ee73eb5f9398b923183",
+    "sha1": "cb21097d8c430f2716538e365447910d90476f6e",
+    "sha256": "5a9b09c86195b8d8b01ee219d7d9794e2abb6641a2351850c49c309f1fc204a0"
+  },
+  "dob": "1983-07-14 07:29:45",
+  "registered": "2010-09-24 02:10:42",
+  "phone": "(656)-976-4980",
+  "cell": "(065)-247-9303",
+  "id": {
+    "name": "BSN",
+    "value": "04242023"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/83.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/83.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/83.jpg"
+  },
+  "nat": "NL",
+  "role": "Designer",
+  "projects": {
+    "0": {
+      "title": "Rebranding + Website Redesign",
+      "account": "Bee's Bees",
+      "steps": {
+        "total": 22,
+        "completed": 20
+      },
+      "dueDate": "2018-07-19 09:00:00",
+      "status": "overdue"
+    },
+    "1": {
+      "title": "Adoption Process Optimization",
+      "account": "Adopt a Goat",
+      "steps": {
+        "total": 7,
+        "completed": 7
+      },
+      "dueDate": "2018-07-20 09:00:00",
+      "status": "complete"
+    },
+    "2": {
+      "title": "Digital Presence Upgrade",
+      "account": "Adopt a Goat",
+      "steps": {
+        "total": 9,
+        "completed": 6
+      },
+      "dueDate": "2018-08-24 09:00:00",
+      "status": "in progress"
+    },
+    "3": {
+      "title": "Digital Assets Refresh",
+      "account": "internal",
+      "steps": {
+        "total": 10,
+        "completed": 3
+      },
+      "dueDate": "2018-08-15 09:00:00",
+      "status": "in progress"
+    },
+    "4": {
+      "title": "Social Media Overhaul",
+      "account": "Bee's Bees",
+      "steps": {
+        "total": 4,
+        "completed": 0
+      },
+      "dueDate": "2018-09-14 09:00:00",
+      "status": "unstarted"
+    },
+    "5": {
+      "title": "Website Redesign",
+      "account": "internal",
+      "steps": {
+        "total": 19,
+        "completed": 0
+      },
+      "dueDate": "2018-12-21 09:00:00",
+      "status": "unstarted"
+    },
+    "6": {
+      "title": "Print Collateral & Templates Update",
+      "account": "internal",
+      "steps": {
+        "total": 10,
+        "completed": 3
+      },
+      "dueDate": "N/A",
+      "status": "paused"
+    }
+  }
+}

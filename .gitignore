@@ -1,0 +1,14 @@
+### IntelliJ ##
+.idea/
+
+#### Build ####
+.tmp/
+dist/
+
+##### Deps ####
+bower_components/
+node_modules/
+
+#### macOS ####
+*.DS_Store
+
