@@ -1,4 +1,4 @@
-# LogicGate
+# People
 
 This repository contains two main directories, each with a small coding challenge.
 Start by cloning this project to your local machine:
