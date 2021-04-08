@@ -94,7 +94,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.header {
+    background-color: #22262B;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
+}
+
+.margin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.top-header-nav-icon-container {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon {
+    width: 40px;
+}
 
 
 
