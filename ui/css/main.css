@@ -94,13 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.header {
+/* TOP HEADER */
+   .header {
     background-color: #22262B;
-    height: 6rem;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .margin-container {
@@ -116,15 +116,44 @@ textarea {
 }
 
 .top-header-nav-icon-container {
-    width: 10rem;
     display: flex;
     justify-content: space-between;
+    width: 10vw;
 }
+
 .nav-icon {
     width: 40px;
 }
 
+/* LEFT SIDE NAV */
+.side-nav-section {
+    width: 7rem;
+}
 
+.side-nav {
+    margin-top: 0;
+    height: 90vh;
+    background-color: #22262B;
+}
+
+.side-menu {
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.side-nav-words {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.side-menu {
+    margin-top: 0;
+    /* height: 7rem; */
+    list-style-type: none;
+}
 
 
 
