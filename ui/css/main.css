@@ -94,13 +94,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.body {
+    width: 100vw;
+    height: 98vh;
+}
+
 /* TOP HEADER */
-   .header {
+.header {
     background-color: #22262B;
-    height: 10vh;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    height: 45px;
 }
 
 .margin-container {
@@ -111,14 +120,10 @@ textarea {
     margin: 0 auto;
 }
 
-.logo {
-    height: 3rem;
-}
-
 .top-header-nav-icon-container {
     display: flex;
     justify-content: space-between;
-    width: 10vw;
+    width: 170px;
 }
 
 .nav-icon {
@@ -126,13 +131,9 @@ textarea {
 }
 
 /* LEFT SIDE NAV */
-.side-nav-section {
-    width: 7rem;
-}
-
 .side-nav {
-    margin-top: 0;
-    height: 90vh;
+    height: calc(100vh - 100px);
+    width: 120px;
     background-color: #22262B;
 }
 
@@ -141,6 +142,8 @@ textarea {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin-top: 0;
+    list-style-type: none;
 }
 
 .side-nav-words {
@@ -149,22 +152,166 @@ textarea {
     font-size: 1.3rem;
 }
 
-.side-menu {
-    margin-top: 0;
-    /* height: 7rem; */
-    list-style-type: none;
+/* MAIN */
+main {
+    margin-left: 120px;
+    width: calc(100vw - 120px);
+    height: calc(100vh - 100px);
+    position: absolute;
+    top: 100px;
+    background-color: #F4F4F4
 }
 
+p {
+    font-size: large;
+}
 
+.task-board-header, 
+.board-controls, 
+.task-container {
+    /* max-width: 2000px; */
+    /* margin: 0 auto; */
+}
 
+/* TASK BOARD HEADER */
+.board-controls-background {
+    width: 100%;
+    background-color: white;
+}
 
+.task-board-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.task-board-header-left-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+}
 
+.task-board-header-text {
+    margin-left: 40px;
+}
 
+.task-board-option-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+}
 
+.task-board-header-right-container {
+    display: flex;
+    align-items: center;
+    margin-right: 2.5%;
+}
 
+.people-icon {
+    width: 55px;
+    margin-right: 5px;
+}
 
+.additional-team-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
 
+}
+
+.additional-team-number {
+    font-size: 25px;
+}
+
+/* TASK BOARD CONTROLS */
+.board-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    background-color: white;
+}
+
+.board-control-buttons {
+    background-color: white;
+    border: none;
+    width: 70px;
+}
+
+.board-controls-icon {
+    width: 30px;
+}
+
+.add-task-container {
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    margin-right: 100px;
+}
+
+/* TASK CONTAINER */
+.task-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F4F4F4;
+
+}
+
+/* .task-header {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    width: 80vw;
+} */
+
+.task-row {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    max-width: 1800px;
+    height: 4rem;
+    background-color: white;
+    box-shadow: 1px 2px #b6b6b6;
+    border-radius: 9px;
+    border: 1px solid #d8d8da;
+}
+
+.dot-menu {
+    height: 30px;
+    justify-content: flex-end;
+} 
+
+.section-1 {
+
+}
+
+.section-2, 
+.section-3 {
+
+}
+
+.section-4 {
+
+}
+
+.section-5 {
+
+}
+
+.section-6 {
+    
+}
 
 
 

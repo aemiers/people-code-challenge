@@ -25,7 +25,8 @@ const organizeAnimalsByClass = () => {
   Object.values(zoos).forEach(zoo => {
     zoo.forEach(animal => {
       if (!organizedAnimals[animal.class]) {
-        organizedAnimals[animal.class] = [];
+        organizedAnimals[animal.class] = [animal.name];
+        return;
       }
       if (!organizedAnimals[animal.class].includes(animal.name)) {
         organizedAnimals[animal.class].push(animal.name)
