@@ -170,13 +170,6 @@ p {
     font-size: large;
 }
 
-.task-board-header, 
-.board-controls, 
-.task-container {
-    /* max-width: 2000px; */
-    /* margin: 0 auto; */
-}
-
 /* TASK BOARD HEADER */
 .board-controls-background {
     width: 100%;
@@ -284,7 +277,6 @@ p {
     width: 100%;
     background-color: #F4F4F4;
     border-top: 1px solid #d8d8da;
-
 }
 
 .task-row {
@@ -298,6 +290,8 @@ p {
     border-radius: 9px;
     border: 1px solid #d8d8da;
     margin-bottom: 10px;
+    min-width: 1000px;  
+
 }
 
 .dot-menu {
@@ -494,7 +488,7 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 1450px) {
     .task-board-header-right-container {
         display: none;
     }
@@ -527,6 +521,20 @@ p {
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .task-container {
+        overflow-y: auto;
+        width: 300px;
+    }
+    .task-board-header-left-container {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        height: 20px;
+    }
+}
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
