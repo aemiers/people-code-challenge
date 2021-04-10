@@ -130,6 +130,10 @@ textarea {
     width: 40px;
 }
 
+.nav-icon:hover {
+    fill: #256AEA;
+}
+
 /* LEFT SIDE NAV */
 .side-nav {
     height: calc(100vh - 100px);
@@ -183,6 +187,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border: 1px solid #d8d8da;
 }
 
 .task-board-header-left-container {
@@ -204,6 +209,11 @@ p {
     height: 50px;
     border-radius: 15px;
     background-color: white;
+}
+
+.task-board-option-buttons:hover {
+    background-color: #256AEA;
+    color: white;
 }
 
 .task-board-header-right-container {
@@ -243,7 +253,15 @@ p {
 .board-control-buttons {
     background-color: white;
     border: none;
-    width: 70px;
+    width: 60px;
+    transition: transform 300ms;
+    transition: all 0.2s ease-in-out;
+}
+
+.board-control-buttons:hover {
+    transform: scale(1.1);
+    transition: transform 300ms;
+    transition: all 0.2s ease-in-out;
 }
 
 .board-controls-icon {
@@ -265,32 +283,31 @@ p {
     flex-direction: column;
     width: 100%;
     background-color: #F4F4F4;
+    border-top: 1px solid #d8d8da;
 
 }
-
-/* .task-header {
-    display: flex;
-    justify-content: center;
-    font-weight: 600;
-    width: 80vw;
-} */
 
 .task-row {
     display: flex;
     align-items: center;
     width: 95%;
     max-width: 1800px;
-    height: 4rem;
+    height: 60px;
     background-color: white;
     box-shadow: 1px 2px #d8d8da;
     border-radius: 9px;
     border: 1px solid #d8d8da;
+    margin-bottom: 10px;
 }
 
 .dot-menu {
     height: 30px;
     justify-content: flex-end;
 } 
+
+.dot-menu:hover {
+    cursor: pointer;
+}
 
 .section-2,
 .section-3,
@@ -327,6 +344,7 @@ p {
     color: white;
     font-weight: 600;
     border-radius: 15px;
+    letter-spacing: 1px;
 }
 
 .section-6 {
@@ -368,12 +386,32 @@ p {
 }
 
 .yellow {
-    background-color: #EAD644;
+    background-color: #ffe310;
 }
 
 .purple {
     background-color: #A30AAF;
 }
+
+.task-row-header {
+    box-shadow: none;
+    border: none;
+    margin: 20px 0 10px 0;
+    height: 30px;
+    background-color: #F4F4F4;
+    color: black;
+    font-weight: 600;
+    border-right: solid 1px transparent;
+}
+
+.task-row-header-box {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #F4F4F4;
+    border-right: none;
+}
+
 
 
 /* ==========================================================================
