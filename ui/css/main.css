@@ -495,7 +495,36 @@ p {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+    .task-board-header-right-container {
+        display: none;
+    }
+
+    .add-task-container {
+        margin-right: 50px;
+    }
+
+    .section-2, 
+    .section-3 {
+        width: 15%;
+    }
+
+    .section-4 {
+        width: 10%;
+    }
+
+    .section-5 {
+        font-weight: 400;
+        letter-spacing: 0;
+        width: 20%;
+    }
+    
+    .section-6 {
+        width: 7%;
+    }
+
+    .meter {
+        display: none;
+    }
 }
 
 @media print,
